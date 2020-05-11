@@ -33,3 +33,10 @@ Run the Project (Navigate to mysite directory)
 
 Add a new app to the project
 > python manage.py startapp app_name
+
+Apply Database Migrations
+> python manage.py migrate
+
+> The migrate command looks at the INSTALLED_APPS setting and creates any necessary database tables according to the database settings in your mysite/settings.py file and the database migrations shipped with the app.
+
+
