@@ -30,3 +30,6 @@ Initializing Django Project
 
 Run the Project (Navigate to mysite directory)
 > python manage.py runserver
+
+Add a new app to the project
+> python manage.py startapp app_name
